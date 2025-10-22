@@ -19,6 +19,7 @@ cd code
 ![](picture/picture_2.png)
 ### 3. 查看寄存器默认值、修改默认cs,ds和ip
 ![](picture/picture_3.png)
+
 ![](picture/picture_4.png)
 ### 4. 运行代码+输出
 ![](picture/picture_5.png)
