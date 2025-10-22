@@ -14,11 +14,11 @@ cd code
 ## Debug内存写入
 
 ### 1.写入数据
-![](picture\picture_1.png)
+![](picture/picture_1.png)
 ### 2. 写入代码
-![](picture\picture_2.png)
+![](picture/picture_2.png)
 ### 3. 查看寄存器默认值、修改默认cs,ds和ip
-![](picture\picture_3.png)
-![](picture\picture_4.png)
+![](picture/picture_3.png)
+![](picture/picture_4.png)
 ### 4. 运行代码+输出
-![](picture\picture_5.png)
+![](picture/picture_5.png)
