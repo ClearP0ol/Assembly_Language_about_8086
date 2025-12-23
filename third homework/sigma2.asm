@@ -1,5 +1,4 @@
 DATA SEGMENT
-    ; 将原本的大写字母改为小写
     prompt      db 'input n (1-100): $'
     result_msg  db 0dh, 0ah, 'the sum (1+2+...+n) is: $'
     n_val       dw 0
@@ -17,7 +16,6 @@ START:
     mov ax, data
     mov ds, ax
 
-    ; 1. 显示提示 (已改为小写)
     lea dx, prompt
     mov ah, 09h
     int 21h
@@ -51,7 +49,7 @@ SUM_LOOP:
     loop SUM_LOOP   
     mov sum_val, ax 
 
-    ; 4. 显示结果提示语 (已改为小写)
+    ; 4. 显示结果提示语 
 SHOW_RES:
     lea dx, result_msg
     mov ah, 09h
