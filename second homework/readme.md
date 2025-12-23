@@ -38,7 +38,7 @@ loop3.asm:采用dl低位寄存器赋值运算的方法，实现条件跳转打�
 步骤：
 1. 在vscode中进行打断点+F5调试
 ![](picture/picture_3.png)
-2. 在调试控制台输入`-exec disassemble \m`
+2. 在调试控制台输入`-exec disassemble \m` 或`-exec disassemble /m`
 3. 可得到反汇编代码如下
 ```
 2	int main(){
