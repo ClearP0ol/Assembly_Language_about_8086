@@ -1,4 +1,3 @@
-; ===== PRINT.ASM =====
 public print_table
 extrn table:byte
 

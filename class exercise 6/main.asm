@@ -1,4 +1,3 @@
-; ===== MAIN.ASM =====
 extrn build_table:far
 extrn print_table:far
 extrn years:byte          ; 声明外部数据，用于获取 data 段基址

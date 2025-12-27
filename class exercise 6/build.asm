@@ -1,4 +1,3 @@
-; ===== BUILD.ASM =====
 public build_table
 extrn years:byte, incomes:dword, staffs:word
 extrn table:byte
