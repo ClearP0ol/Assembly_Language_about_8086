@@ -1,8 +1,7 @@
 # exercise 3
 任务内容：
 
-1. 要求调用BIOS的键盘中断int 16h和int 10h显示中断，获取按键信息并显示对应字符，直到用户按下shift键（包括左右任何一个）后结束该程序
-2. 了解int 21号中断和BIOS中断的关系，改作业不允许使用int 21中断
+![](picture/picture_5.png)
 
 ## 一、基本要求
 代码：stop.asm
