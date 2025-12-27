@@ -4,6 +4,7 @@
 ![](picture/picture_1.png)
 ## 二、用内联汇编解决溢出报错
 代码：overflow.c
+
 核心代码如下：
 ```
 int add_with_overflow_check(int a, int b, int *overflow)
@@ -156,7 +157,6 @@ install_int4 endp
 ; 若 OF=1 -> 触发 INT 4 -> ISR 把 ovf_flag 置 1
 into
 ```
-代码说明：
 
 #### 4.1 设计目标
 
